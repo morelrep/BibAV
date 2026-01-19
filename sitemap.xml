@@ -180,6 +180,13 @@
 
     
     <url>
+        <loc>/metadatos</loc>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>/copia-docente</loc>
         <lastmod>2026-01-16</lastmod>
         <changefreq>weekly</changefreq>
