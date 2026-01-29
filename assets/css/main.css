@@ -214,6 +214,16 @@ code {
   color: #333;
 }
 
+.footnote {
+  vertical-align: super;
+  font-size: 0.6em;
+}
+
+.footnotes ol, .footnotes p {
+  font-size: 0.9em;
+  list-style-position: inside;
+}
+
 :root {
   --color-1: #080b0c;
   --color-2: #c1121f;
