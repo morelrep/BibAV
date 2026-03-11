@@ -832,13 +832,6 @@
             </url>
             
             <url>
-                <loc>/authors/maitin-jose-antonio</loc>
-                <lastmod>2026-03-11</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.5</priority>
-            </url>
-            
-            <url>
                 <loc>/authors/martinez-celestino</loc>
                 <lastmod>2026-03-11</lastmod>
                 <changefreq>weekly</changefreq>
@@ -1064,13 +1057,6 @@
             
             <url>
                 <loc>/authors/rojas-aristides</loc>
-                <lastmod>2026-03-11</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.5</priority>
-            </url>
-            
-            <url>
-                <loc>/authors/rojas-pedro-jose</loc>
                 <lastmod>2026-03-11</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
@@ -1858,27 +1844,6 @@
             </url>
             
             <url>
-                <loc>/books/diccionario-de-galicismos-o-baralt-1855-l72h63ug</loc>
-                <lastmod>2026-03-11</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.5</priority>
-            </url>
-            
-            <url>
-                <loc>/books/diccionario-de-galicismos-o-baralt-1855-qiydiah7</loc>
-                <lastmod>2026-03-11</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.5</priority>
-            </url>
-            
-            <url>
-                <loc>/books/diccionario-de-galicismos-o-baralt-1855-tzlx3dg5</loc>
-                <lastmod>2026-03-11</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.5</priority>
-            </url>
-            
-            <url>
                 <loc>/books/diccionario-de-galicismos-o-baralt-1855-w79f6ycy</loc>
                 <lastmod>2026-03-11</lastmod>
                 <changefreq>weekly</changefreq>
@@ -2243,13 +2208,6 @@
             </url>
             
             <url>
-                <loc>/books/espana-y-america-articulos-rojas-1864-7wuea363</loc>
-                <lastmod>2026-03-11</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.5</priority>
-            </url>
-            
-            <url>
                 <loc>/books/esposicion-de-los-motivos-mendez-1828-3fgkkyzl</loc>
                 <lastmod>2026-03-11</lastmod>
                 <changefreq>weekly</changefreq>
@@ -2523,7 +2481,7 @@
             </url>
             
             <url>
-                <loc>/books/la-tristeza-voluptuosa-novela-dominici-1800-y3k7ru4d</loc>
+                <loc>/books/la-tristeza-voluptuosa-novela-dominici-1899-y3k7ru4d</loc>
                 <lastmod>2026-03-11</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
@@ -2825,13 +2783,6 @@
             
             <url>
                 <loc>/books/obras-literarias-gonzalez-1887-xh7y59rt</loc>
-                <lastmod>2026-03-11</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.5</priority>
-            </url>
-            
-            <url>
-                <loc>/books/obras-poeticas-maitin-1851-6yeudf8g</loc>
                 <lastmod>2026-03-11</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
@@ -3615,6 +3566,13 @@
             </url>
             
             <url>
+                <loc>/publishers/imprenta-de-bernardo-rodriguez</loc>
+                <lastmod>2026-03-11</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
                 <loc>/publishers/imprenta-de-jose-r-henriquez</loc>
                 <lastmod>2026-03-11</lastmod>
                 <changefreq>weekly</changefreq>
@@ -3637,13 +3595,6 @@
             
             <url>
                 <loc>/publishers/imprenta-de-los-estados-unidos-de-venezuela</loc>
-                <lastmod>2026-03-11</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.5</priority>
-            </url>
-            
-            <url>
-                <loc>/publishers/imprenta-de-manuel-a-carreno</loc>
                 <lastmod>2026-03-11</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
@@ -3679,6 +3630,13 @@
             
             <url>
                 <loc>/publishers/j-owen</loc>
+                <lastmod>2026-03-11</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
+                <loc>/publishers/la-esfera</loc>
                 <lastmod>2026-03-11</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
