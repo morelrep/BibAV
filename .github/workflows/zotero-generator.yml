@@ -3,7 +3,7 @@ name: Generate and Build Site
 on:
   push:
     branches:
-      - biva_improvements
+      - main
     paths:
       - 'assets/data/books_zotero.csv'
 
