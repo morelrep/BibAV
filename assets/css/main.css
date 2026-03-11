@@ -734,7 +734,7 @@ label.morel:hover {
 /* bordes no tan puyudos*/
 .basis .container img.image {
   border-radius: 0.5px 2px 2px 0.5px;
-  mask-image: url(/BibAV/42683_adobe.svg);
+  mask-image: url(/42683_adobe.svg);
   mask-size: cover;
 }
 
@@ -763,7 +763,7 @@ label.morel:hover {
 }
 
 figure img:hover {
-  mask-image: url(/BibAV/42683_adobe.svg);
+  mask-image: url(42683_adobe.svg);
   mask-size: cover;
 }
 
