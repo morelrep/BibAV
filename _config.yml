@@ -4,14 +4,14 @@ img: logo.png # Add a file with your site's logo on /assets/img/tema
 background: pattern.png # Add a file with your site's pattern on /assets/img/tema
 image : avatar.png  # Add a file with a copy of your site's avatar on /assets/img/tema
 email : proyectomorel@gmail.com
-github : morelrep
+github : morelrep/BibAV
 twitter :
 instagram:
 podcast: # Set to true if you want to enable podcast or blog support
 jotform: https://form.jotform.com/211904785426056
 bsky: 
 mastodon:
-zot-group: 6350646/bibav
+zot-group: 6350646/bibav/collections/XV92RCHB/collection
 zot-item: https://www.zotero.org/groups/6350646/bibav/collections/XV92RCHB/items/
 lang: es
 biba: true # Set to true if you want to enable Biblioteca Abierta features
