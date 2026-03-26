@@ -14,8 +14,8 @@
     </figcaption>
     {% endif %}
     {% for img in site.data.books %}
-    {% if img.Id == book.Id %}
-        {% assign lores_cover = book.Call_Number %}
+    {% if img.Id == book_day.Id %}
+        {% assign lores_cover = book_day.Call_Number %}
         {% assign fullres_cover = lores_cover | replace: 'frontcover&img=1&zoom=1', 'frontcover&img=1&zoom=4' %}
          {% include book-list-url-img_obra-suerte.html %}
                      <a href="{{ img.Download }}" target="_blank" download><img src="

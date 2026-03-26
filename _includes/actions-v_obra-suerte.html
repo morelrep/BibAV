@@ -1,5 +1,5 @@
  {% for link in site.data.books %}
- {% if link.Id == book.Id %}
+ {% if link.Id == book_day.Id %}
     {% if link.Download != "" and link.Download != nil %} 
     <a class="morel" href="{{ link.Download }}" target="_blank" download><i class="fa fa-file-pdf-o"></i></a>
     {%endif%}

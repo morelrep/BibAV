@@ -1,11 +1,9 @@
-{% for book in site.data.books %}
-{% if book.Id == "HB68GPV2" %}
-<h1 class="book">{{ book.Title }}</h1>
+<h1 class="book">{{ book_day.Title }}</h1>
 <div class="obra-dia sombra">
 <div class="ficha-container" style="">
     <div class="ficha-title">
         <h2>
-            {{ book.Title }}
+            {{ book_day.Title }}
                 <a class="morel a2a_dd" href="https://www.addtoany.com/share">
                 <i class="fa fa-share-alt" style="padding: 0em 0em;">
                     <script async src="https://static.addtoany.com/menu/page.js"></script>
@@ -14,11 +12,11 @@
     </div>
     <div class="ficha-extract" style="">
         <p class="morel">
-            {{ book.Notes }}
+            {{ book_day.Notes }}
         </p>
     </div>
     <div class="ficha-metadata">
-        {% include book-metadata-index.html %}
+        {% include book-metadata-index-obradia.html %}
     </div>
 </div>
 <div class="portada" style="">
@@ -28,5 +26,3 @@
  {% include actions-v_obra-suerte.html %}
 </div>
 </div>
-{% endif %}
-{% endfor %}

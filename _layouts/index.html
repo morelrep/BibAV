@@ -1,45 +1,24 @@
 ---
 layout: default
----
-        {% comment %}
-        Load the main data file (CSV) from _data/main_items.csv.
-        {% endcomment %}
-        {% assign main = site.data.main_items %}
-
-        {% comment %}
-        Load the excluded data file and extract only the "id" field into an array.
-        Example: excluded_items.csv has rows with id 2 and 4, so excluded_ids becomes [2, 4].
-        {% endcomment %}
-        {% assign excluded_ids = site.data.excluded_items | map: "id" %}
-
-        <ul>
-        {% comment %}
-            Loop through each item in main.
-            The 'unless' condition checks if the item's id is NOT in the excluded_ids array.
-            If the id is not found, the item is output.
-        {% endcomment %}
-        {% for item in main %}
-            {% unless excluded_ids contains item.id %}
-            <li>{{ item.name }}</li>
-            {% endunless %}
-        {% endfor %}
-        </ul>
-        
-        {% comment %}
-        
+---        
         {% assign main = site.data.books %}
         
         {% assign excluded_ids = site.data.posts | map: "Key" %}
 
-        <ul>
+        {% assign eligible = "" | split: "" %}
+
         {% for book in main %}
             {% unless excluded_ids contains book.Id %}
-            <li>{{ book.name }}</li>
+                       {% assign eligible = eligible | push: book %}
             {% endunless %}
         {% endfor %}
-        </ul>
-        {% endcomment %}
-        
+
+        {% assign book_day = eligible | sample %}
+
+        {{ book_day.Title }}
+
+        {% include book-sample-no-post.html %}
+
         <h1 class="index">{{ site.tagline }}</h1>
         
         <!--Búsqueda-->
