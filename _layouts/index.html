@@ -1,7 +1,7 @@
 ---
 layout: default
 ---        
-        {% if site.title == "Biblioteca Abierta Venezolana" %}
+        {% if site.title == "Biblioteca Abierta" %}
             {% include time-selector.html %}
         {% else %}
             {% assign main = site.data.books %}
@@ -18,7 +18,7 @@ layout: default
 
             {% assign book_day = eligible | sample %}
 
-            {{ book_day.Title }}
+            {{ book_day.Title }} Obra no programada
 
             {% include book-sample-no-post.html %}
         {% endif %}

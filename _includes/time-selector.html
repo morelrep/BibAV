@@ -34,6 +34,7 @@
 {% endfor %}
 {% for book_day in books %}
   {% if matching_keys contains book_day.Id %}
+    {{ book_day.Title }} Obra del día según el post del día
             {% include book-sample-no-post.html %}
   {% endif %}
 {% endfor %}
