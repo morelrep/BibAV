@@ -24,7 +24,22 @@ layout: default
             {% endunless %}
         {% endfor %}
         </ul>
+        
+        {% comment %}
+        
+        {% assign main = site.data.books %}
+        
+        {% assign excluded_ids = site.data.posts | map: "Key" %}
 
+        <ul>
+        {% for book in main %}
+            {% unless excluded_ids contains book.Id %}
+            <li>{{ book.name }}</li>
+            {% endunless %}
+        {% endfor %}
+        </ul>
+        {% endcomment %}
+        
         <h1 class="index">{{ site.tagline }}</h1>
         
         <!--Búsqueda-->
