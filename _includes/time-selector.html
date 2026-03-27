@@ -32,12 +32,12 @@
     {% assign matching_keys = matching_keys | push: post["Key"] %}
   {% endif %}
 {% endfor %}
+{% assign match_found = false %}
 {% for book_day in books %}
   {% if matching_keys contains book_day.Id %}
-    {{ book_day.Title }} Obra del día según el post del día
+    <!--{{ book_day.Title }} Obra del día según el post del día -->
             {% include book-sample-no-post.html %}
-  {% else %}
-    {% assign no_post_today = true %}
+            {% assign match_found = true %}
   {% endif %}
   
 {% endfor %}
