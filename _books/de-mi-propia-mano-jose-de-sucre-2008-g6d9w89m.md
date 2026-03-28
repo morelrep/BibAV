@@ -3,4 +3,4 @@ title: "De mi propia mano"
 key: "G6D9W89M"
 author: José de Sucre, Antonio
 ---
-<div data-schema-version="8"><p><p>¡“Caracas”! Guirnalda de reliquias beneméritas (de otros cuerpos que forman ese) que recordáis tantas victorias cuantas cicatrices adornan el pecho de vuestros veteranos. Ayer asombrasteis al remoto atlántico en Maracaibo y coro; hoy los andes del Perú se humillarán a vuestra intrepidez. Vuestro nombre os manda a todos ser héroes. Es el de la patria del libertador, el de la ciudad sagrada que marcha con él al frente de la américa. ¡Viva el libertador! ¡Viva la cuna de la libertad!</p></p></div>
+<div data-schema-version="9"><p>Las noticias de por aquí son muy inciertas, unos dicen que la resolución de Venezuela es un sentimiento general, otros que son la menor parte, aseguran que el pensamiento de separación no es popular, y que el verdadero objeto es obtener la federación por sembrado de estos alborotos. Yo aún no sé qué pensar ni he formado opinión propia, necesito tener mejores datos.</p> <p>Le enviaré mañana esta comunicación.</p> </div>

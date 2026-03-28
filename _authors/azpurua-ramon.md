@@ -1,3 +1,3 @@
 ---
-title: Azpurúa, Ramón
+title: Azpúrua, Ramón
 ---
