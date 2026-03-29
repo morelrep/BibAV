@@ -3,7 +3,7 @@ name: Daily Jekyll Build
 on:
   schedule:
     # Run every day at midnight UTC
-    - cron: '49 14 * * *'
+    - cron: '18 9 * * *'
       
 jobs:
   build:
