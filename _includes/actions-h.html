@@ -1,5 +1,5 @@
 <figure class="img-frame">
-    {% if book.Tag == blocked %}
+    {% if site.biba != true %}
     <figcaption style="margin-top: 23%;">
         This is a placeholder.
     </figcaption>
@@ -18,13 +18,8 @@
         {% assign lores_cover = book.Call_Number %}
         {% assign fullres_cover = lores_cover | replace: 'frontcover&img=1&zoom=1', 'frontcover&img=1&zoom=4' %}
         {% include book-list-url-img.html %}
-        {% assign clean_call = book.Call_Number | strip %}
-        {% if clean_call != '' %}{{ img-url }}{% endif %}
-        {% if book.Cover == '' %}Book cover not available{% endif %}
-        {% if book.Cover == nil %}Book cover not available{% endif %}
-        
                     <a href="{{ book.Download }}" target="_blank" download><img src="
-                        {% if site.biba != true %}{{ img-url }}{% elsif book.Cover == '' or book.Cover == empty and book.Call_Number != empty %}no{{ fullres_cover }}{% else %}{{ img-url }}{% endif %}" class="responsive" alt="{{ img.Title }}" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %};"></a>
+                        {% if site.biba != true %}{{ img-url }}{% elsif book.Cover == '' or book.Cover == nil and book.Call_Number != '' %}{{ fullres_cover }}{% else %}{{ img-url }}{% endif %}" class="responsive" alt="{{ img.Title }}" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %};"></a>
                     <div class="actions-h">
                         <!-- AddToAny BEGIN -->
                         {% if book.Download contains "books.google.com" %}
