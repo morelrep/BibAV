@@ -7,7 +7,9 @@ layout: default
 <div class="ficha-container" style="">
     <div class="ficha-title">
         <h2>
-            {{ page.title }}
+            {% assign tag = page.tag %}
+            {% assign ventana_size = site.data.books | where_exp: "book", "book.Tags contains tag"%}
+            {{ ventana_size | size }} obras sobre {{ page.tema }}
                 <a class="morel a2a_dd" href="https://www.addtoany.com/share">
                 <i class="fa fa-share-alt" style="padding: 0em 0em;">
                     <script async src="https://static.addtoany.com/menu/page.js"></script>
@@ -32,11 +34,5 @@ layout: default
 </div>
 </div>
 <!--Obras-->
-
-{% include book-list-related-book.html %}
+{% include book-list-tags-main.html %}
 <!-- fin de obras relacionadas -->
-
-{% include modal_download.html %}
-{% include modal_edit.html %}
-
-

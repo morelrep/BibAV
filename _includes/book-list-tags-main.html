@@ -1,8 +1,7 @@
   <!--lista 1 -->
         <div class="row">
             <!--LOOP DE LISTA 1, idioma venezolano-->
-            {% assign books_size = site.data.books | where_exp: "book", "book.Tags contains 'idioma-venezolano'"%}
-            {% assign books = books_size| sample: 7 %}
+            {% assign books = site.data.books | where_exp: "book", "book.Tags contains tag"%}
             {% for book in books %}
             {% include book-list-base.html %}
             {% endfor %}
@@ -10,15 +9,14 @@
                 <div class="container">
                     <label for="listas"><img src="{{ site.BASE_PATH }}/assets/img/tema/+obras.png" class="image sombra"></label>
                     <div>
-                        {% if books_size.size > 7 %}
-                        {% if site.lang == "es" %}
-                        {% assign target = "idioma-venezolano" %}
+{% comment %}                        {% if site.lang == "es" %}
+                        {% assign target = tag %}
                         {% include ver-mas.html %}
                         {% else %}
                         {% assign target = "spanish" %}
                         {% include see-more.html %}
                         {% endif %}
-                        {% endif %}
+                        {% endif %}{% endcomment %}
                     </div> 
                 </div>
             </div>
