@@ -1,17 +1,17 @@
-<figure class="img-frame">
-    {% if site.biba != true %}
-    <figcaption style="margin-top: 23%;">
-        This is a placeholder.
-    </figcaption>
-    <figcaption style="margin-top: 34%;">
-        Contribute the actual cover
-    </figcaption>
-    <figcaption style="margin-top: 42%;">
-        by clicking + in the menu
-    </figcaption>
-    <figcaption style="margin-top: 50%;">
-        or Z in the footer
-    </figcaption>
+{% assign target_tag = "blocked" %}
+{% if page.tags contains target_tag %}
+         <figcaption style="margin-top: 23%;">
+        Título en peligro
+        </figcaption>
+        <figcaption style="margin-top: 34%;">
+            Contribuye a salvarlo
+        </figcaption>
+        <figcaption style="margin-top: 42%;">
+            haciendo click en el lápiz
+        </figcaption>
+        <figcaption style="margin-top: 50%;">
+            o en la "Z" del footer
+        </figcaption>
     {% endif %}
    {% for book in site.data.books %}
    {%  if book.Id == page.key %}
