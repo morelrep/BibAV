@@ -1,8 +1,22 @@
-<figure class="img-frame">
-                        {% include img-slide.html %}
+{% assign target_tag = "blocked" %}
+{% if page.tags contains target_tag %}
+         <figcaption style="margin-top: 23%;">
+        Título en peligro
+        </figcaption>
+        <figcaption style="margin-top: 34%;">
+            Contribuye a salvarlo
+        </figcaption>
+        <figcaption style="margin-top: 42%;">
+            haciendo click en el lápiz
+        </figcaption>
+        <figcaption style="margin-top: 50%;">
+            o en la "Z" del footer
+        </figcaption>
+{% endif %}
+        {% assign book.Title = page.title %}
+                    <a href="{{ book.Download }}" target="_blank" download><img src="{{site.BASE_PATH}}/assets/empty.png" style="background-color: color-mix(in srgb, var(--color-2) 70%, var(--color-3) 30%); background-image: url({{site.BASE_PATH}}/assets/img/tema/squairy.png);"></a>
                     <div class="actions-h">
-                        {% if site.zot-item %}
-                        <a class="morel" href="{{ site.zot-item }}{{page.key}}" target="_blank"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                        {% endif %}
+                                             
                     </div>
+        
 </figure>

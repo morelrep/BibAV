@@ -41,7 +41,7 @@ layout: default
 </div>
 <!--Obras-->
 {% include book-list-tags-main.html %}
-<!-- obras en peligro -->
+<!-- obras en peligro (presentación)-->
 <div class="obra-dia sombra">
     <div class="ficha-container" style="">
         <div class="ficha-title">
@@ -63,14 +63,12 @@ layout: default
         </div>
     </div>
     <div class="portada" style="">
-        <figure class="img-frame">
-                    <img src="{{site.BASE_PATH}}/assets/empty.png" alt="missing cover">
-        </figure>
+        {% include actions-h_temp.html %}
     </div>
     <div class="actions-v">
     {% include actions-v.html %}
     </div>
 </div>
-<!-- obras bloqueadas -->
+<!-- obras en peligro (lista) -->
 {% include book-list-tags-blocked.html %}
 
