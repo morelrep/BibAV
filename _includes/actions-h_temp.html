@@ -1,21 +1,21 @@
 <figure class="img-frame">
-{% assign target_tag = "blocked" %}
-{% if page.tags contains target_tag %}
-         <figcaption style="margin-top: 23%;">
+        <figcaption style="margin-top: 23%;">
         Título en peligro
         </figcaption>
         <figcaption style="margin-top: 34%;">
             Contribuye a salvarlo
         </figcaption>
         <figcaption style="margin-top: 42%;">
-            haciendo click en el lápiz
+            agregando una copia
         </figcaption>
+<figcaption>
+        y editando sus metadatos&nbsp;&nbsp;<i class="fa fa-pencil" style="font-size: 1.25rem;" aria-hidden="true"></i>
+</figcaption>
         <figcaption style="margin-top: 50%;">
-            o en la "Z" del footer
+            o financiando su recuperación&nbsp;&nbsp;<i class="fa fa-exclamation-triangle" style="font-size: 1rem;" aria-hidden="true"></i>
         </figcaption>
-{% endif %}
         {% assign book.Title = page.title %}
-                    <a href="{{ book.Download }}" target="_blank" download><img src="{{site.BASE_PATH}}/assets/empty.png" style="background-color: color-mix(in srgb, var(--color-2) 70%, var(--color-3) 30%); background-image: url({{site.BASE_PATH}}/assets/img/tema/squairy.png);"></a>
+                    <a href="{{ book.Download }}" target="_blank" download><img src="{{site.BASE_PATH}}/assets/empty.png" class="responsive" alt="Títulos en peligro" style="background-color: color-mix(in srgb, var(--color-2) 70%, var(--color-3) 30%); background-image: url({{site.BASE_PATH}}/assets/img/tema/squairy.png);"></a>
                     <div class="actions-h">
                                              
                     </div>
