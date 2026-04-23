@@ -26,8 +26,14 @@ layout: default
         </div>
     </div>
     <div class="portada" style="">
-        
-        {% include actions-h_temp.html %}
+       <figure class="img-frame">
+                        {% include img-slide.html %}
+                    <div class="actions-h">
+                        {% if site.zot-item %}
+                        <a class="morel" href="{{ site.zot-item }}{{page.key}}" target="_blank"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                        {% endif %}
+                    </div>
+        </figure>
     </div>
     <div class="actions-v">
     {% include actions-v.html %}
@@ -57,8 +63,9 @@ layout: default
         </div>
     </div>
     <div class="portada" style="">
-        
-        {% include actions-h_temp.html %}
+        <figure class="img-frame">
+                    <img src="{{site.BASE_PATH}}/assets/empty.png" alt="missing cover">
+        </figure>
     </div>
     <div class="actions-v">
     {% include actions-v.html %}
