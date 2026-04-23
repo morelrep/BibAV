@@ -986,6 +986,13 @@
             </url>
             
             <url>
+                <loc>/authors/picon-febres-gonzalo</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
                 <loc>/authors/pimentel-francisco</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
@@ -2194,6 +2201,13 @@
             </url>
             
             <url>
+                <loc>/books/en-el-sur-dialectos-tavera-acosta-1907-tk2eja8f</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
                 <loc>/books/enciclopedia-sigui-recopilacion-de-pimentel-1916-pywxcad3</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
@@ -2279,6 +2293,20 @@
             
             <url>
                 <loc>/books/general-de-division-mariano-montilla-1982-jhz3c64a</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
+                <loc>/books/glosario-de-voces-indigenas-alvarado-1921-r4zar9we</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
+                <loc>/books/glosarios-del-bajo-espanol-alvarado-1929-izl2zien</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
@@ -2552,6 +2580,13 @@
             
             <url>
                 <loc>/books/le-vicepresidente-de-la-soublette-1837-8a8vlfxh</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
+                <loc>/books/libro-raro-voces-locuciones-picon-febres-1912-k57c436q</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
@@ -2853,6 +2888,13 @@
             
             <url>
                 <loc>/books/obras-poeticas-y-literarias-quevedo-1863-ufs74zbi</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
+                <loc>/books/observaciones-sobre-el-caribe-alvarado-1919-8xxn3hzn</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
@@ -3426,6 +3468,13 @@
             </url>
             
             <url>
+                <loc>/books/venezuela-pre-coloniana-contribucion-al-tavera-acosta-1930-5wdkkyjg</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
                 <loc>/books/venezuela-y-los-monagas-gonzalez-1838-9ajtf2j6</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
@@ -3490,6 +3539,13 @@
             
             <url>
                 <loc>/books/voces-nuevas-en-la-rivodo-1889-29f6vt7h</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
+                <loc>/books/voces-y-locuciones-de-rivodo-1896-c7cbzbmk</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
@@ -3664,6 +3720,20 @@
           <!-- Avoid duplication with posts -->
             
             <url>
+                <loc>/publishers/a-bethencourt-e-hijos</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
+                <loc>/publishers/b-j-castro</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
                 <loc>/publishers/biblioteca-ayacucho</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
@@ -3700,6 +3770,13 @@
             
             <url>
                 <loc>/publishers/d-appleton-y-compania</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
+                <loc>/publishers/ed-victoria</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
@@ -3923,6 +4000,20 @@
             </url>
             
             <url>
+                <loc>/publishers/lit-y-tip-casa-de-especialidades</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
+                <loc>/publishers/lito-tipografia-mercantil</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
                 <loc>/publishers/litografia-del-comercio</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
@@ -3966,6 +4057,13 @@
             
             <url>
                 <loc>/publishers/renacimiento</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+            <url>
+                <loc>/publishers/tip-el-cojo</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
@@ -4061,6 +4159,17 @@
             
             <url>
                 <loc>/repositories/the-internet-archive</loc>
+                <lastmod>2026-04-23</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            
+        
+    
+          <!-- Avoid duplication with posts -->
+            
+            <url>
+                <loc>/ventanas/idioma-venezolano.html</loc>
                 <lastmod>2026-04-23</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.5</priority>
