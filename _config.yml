@@ -55,6 +55,8 @@ collections:
     permalink: /criteria/:name
   abouts:
     output: true
+  ventanas:
+    output: true
 
 defaults:
   - scope:
