@@ -7,12 +7,16 @@ layout: default
         <!--Búsqueda-->
         <a href="buscar"><div class="search-index"><i class="fa fa-search" aria-hidden="true" class="search-index"></i></div></a>
         
+       
+        
         <!--- ventana presentación -->
-        {% include ventana-presentacion.html %}
-        <!--ventana lista -->
         <div class="row obras obra-suerte">
             <h2 class="index">Ventana al idioma venezolano</h2>
         </div>
+        {% assign tema = "idioma-venezolano" %}
+        {% include ventana-presentacion.html %}
+
+        <!--ventana lista -->
         {% assign tag = "idioma-venezolano" %}
         {% include book-list-tags-index.html %}
 

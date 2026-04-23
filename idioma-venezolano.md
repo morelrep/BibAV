@@ -10,9 +10,9 @@ warning: |
 
     Puedes contribuir de varias formas a hacerlos universalmente accesibles:
 
-    - Inscríbete como voluntarix agregador(a) de contenido
-    - Contribuye con una donación a la campaña de recolección de fondos para liberar estos materiales
-    - Haz circular esta información para encontrar más colaboradores
+    - [Inscríbete como voluntarix agregador(a) de contenido]({{site.zot-group}})
+    - [Contribuye con una donación a la campaña de recolección de fondos para liberar estos materiales]({{site.gofundme}})
+    - [Haz circular esta información para encontrar más colaboradores](https://www.addtoany.com/share#url=http%3A%2F%2F127.0.0.1%3A4000%2FBibAV%2Fidioma-venezolano&title=Ventana%20al%20idioma%20venezolano%20%7C%20Biblioteca%20Abierta%20Venezolana)
 
 ---
 Lexicografías, tratados, gramáticas, vocabularios, diccionarios... Las obras metalingüísticas fueron, desde antes de la fundación de las primeras repúblicas, herramientas clave del gremio intelectual criollo para afirmar su pertenencia a (y propiedad sobre) el territorio y la población americanas y la lengua española. 

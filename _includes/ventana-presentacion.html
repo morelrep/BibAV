@@ -1,8 +1,7 @@
 <!-- presentación-->
  <!-- definir en el index, con "assign": tag, tema y presentacion -->
- {{ site.ventanas.size }}
  {% for v in site.ventanas %}
-            {% if v.tag == "idioma-venezolano" %}
+            {% if v.tag == tema %}
 <div class="obra-dia sombra">
     <div class="ficha-container" style="">
        
@@ -23,15 +22,17 @@
                 {{ v.content }}
             </p>
         </div>
-           {% endif %}
-        {% endfor %}
+         {% endif %}
+{% endfor %}
         <div class="ficha-metadata">
             {% include book-metadata.html %}
         </div>
     </div>
     <div class="portada" style="">
        <figure class="img-frame">
+        <a href="{{BASE_PATH}}/{{ v.tag }}">
                         {% include img-slide.html %}
+        </a>
                     <div class="actions-h">
                         {% if site.zot-item %}
                         <a class="morel" href="{{ site.zot-item }}{{page.key}}" target="_blank"><i class="fa fa-pencil" aria-hidden="true"></i></a>
