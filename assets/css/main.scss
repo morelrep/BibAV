@@ -1,5 +1,5 @@
 ---
-
+# assets/css/main.scss
 ---
 
 @import 'base/reset';
@@ -15,4 +15,8 @@
 @import 'pages/blog';
 @import 'pages/criteria';
 @import 'vendors/particles';
+{% if site.local %}
+@import 'components/img-slide_local';
+{% else %}
 @import 'components/img-slide';
+{% endif %}
