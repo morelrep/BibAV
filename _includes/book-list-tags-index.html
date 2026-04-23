@@ -1,6 +1,4 @@
-  <!--lista 1 -->
         <div class="row">
-            <!--LOOP DE LISTA 1, idioma venezolano-->
             {% assign books_size = site.data.books | where_exp: "book", "book.Tags contains tag"%}
             {% assign books = books_size| sample: 7 %}
             {% for book in books %}
