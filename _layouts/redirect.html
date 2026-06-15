@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <link rel="canonical" href="{{ page.redirect_url }}">
+  <meta http-equiv="refresh" content="0; url={{ page.redirect_url }}">
+</head>
+<body>
+  <h1>Redirecting...</h1>
+  <p><a href="{{ page.redirect_url }}">Haz click aquí si no no se abre automáticamente el enlace de registro.</a></p>
+  <script>window.location.href = "{{ page.redirect_url }}";</script>
+</body>
+</html>
