@@ -11,13 +11,13 @@ layout: default
         
         <!--- ventana presentación -->
         <div class="row obras obra-suerte">
-            <h2 class="index">Ventana al idioma venezolano</h2>
+            <h2 class="index">{{ site.ventana-titulo }}</h2>
         </div>
-        {% assign tema = "idioma-venezolano" %}
+        {% assign tema = site.ventana-tema %}
         {% include ventana-presentacion.html %}
 
         <!--ventana lista -->
-        {% assign tag = "idioma-venezolano" %}
+        {% assign tag = site.ventana-tema %}
         {% include book-list-tags-index.html %}
 
         <!-- Criterios de búsqueda -->
@@ -42,20 +42,18 @@ layout: default
         </div>
         {% include book-list-es.html %}
 
-        <!--Últimas siete traducciones registradas -->        
-        <div class="row obras obra-suerte">
+        <!-- Últimas siete traducciones registradas, puedes añadir el include de book-list-translations más adelente-->
+        <!-- <div class="row obras obra-suerte">
             <h2 class="index">{% if site.lang == "es" %}Algunas traducciones{% else %}Some book translations{% endif %}</h2>
-        </div>
-        {% include book-list-translations.html %}
+        </div>  -->      
        
-        <!--Francés-->
+        <!--Francés, agrega include book-list-fr.html más adelante si es pertinente
         <div class="row obras">
             <h2 class="index">{% if site.lang == "es" %}Algunos libros en francés{% else %}Some books in French{% endif %}</h2>
         </div>
-        {% include book-list-fr.html %}
+         -->
 
-        <!--Alemán-->
+        <!--Alemán, agrega include book-list-de.html más adelante si es pertinente
         <div class="row obras">
             <h2 class="index">{% if site.lang == "es" %}Algunos libros en alemán{% else %}Some books in German{% endif %}</h2>
-        </div>
-        {% include book-list-de.html %}
+        </div> -->

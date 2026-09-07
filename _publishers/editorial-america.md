@@ -1,3 +1,3 @@
 ---
-title: Editorial América
+title: Editorial-América
 ---

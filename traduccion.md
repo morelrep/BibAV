@@ -1,6 +1,6 @@
 ---
 title: Ventana a la traducción en Venezuela
-tema: traducciones y traductores de la tradición escrita venezolana
+tema: con traducciones y traductores de la tradición escrita venezolana # Esta frase sigue a "{número} obras"
 layout: ventana
 tag: traduccion
 warning: | 
@@ -15,7 +15,7 @@ warning: |
     - [Haz circular esta información para encontrar más colaboradores](https://www.addtoany.com/share#url=http%3A%2F%2F127.0.0.1%3A4000%2FBibAV%2Fidioma-venezolano&title=Ventana%20al%20idioma%20venezolano%20%7C%20Biblioteca%20Abierta%20Venezolana)
 
 ---
-Desde mucho antes del primer juramento pronunciado a favor de la existencia de Colombia* (por haitianos, usamericanos e ingleses bajo la conducción de Francisco de Miranda) las letras criollas han estado atravesadas por múltiples redes de traducción. Traducción de obras en lengua extranjera hechas por venezolanos, traducción de textos venezolanos a lengua extranjera, traducción intra-venezolana de lenguas originarias a la lengua colonial y viceversa, e incluso textos clásicos, como la "Carta de Jamaica", que fueron publicados por primera vez en otra lengua.
+Desde mucho antes del primer juramento pronunciado a favor de la existencia de Colombia* (por haitianos, usamericanos e ingleses bajo la conducción de Francisco de Miranda) las letras criollas han estado atravesadas por múltiples redes de traducción. Traducción de obras en lengua extranjera hechas por venezolanos, traducción de textos venezolanos a lengua extranjera, traducción intra-venezolana de lenguas originarias a la lengua colonial y viceversa, e incluso textos ya clásicos que fueron publicados por primera vez en otra lengua.
 
 Como parte del esfuerzo de BibAV por la recuperación técnica y crítica del dominio público venezolano, presentamos una ventana a algunas obras insertas en estas redes de cruces de lenguas. Junto a las obras que ya se encuentran en la colección, se encuentra una serie de obras en riesgo, cuyo acceso permanece restringido por los grandes acumuladores de patrimonio digital global.
 

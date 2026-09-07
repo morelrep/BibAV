@@ -2,6 +2,6 @@
 title: "Obras Completas II, Poema del Cid"
 key: "RCHVVIF9"
 author: Anónimo; Bello, Andrés
-tags: [curado]
+tags: [curado, duplicado, traduccion]
 ---
-<div data-schema-version="9"><p>El infante don Fernando, hijo do los reyes católicos don Felipe I i doña Juana, i después emperador de Alemania, hallándose en el monasterio de Cardeña i teniendo a la vista un antiguo manuscrito de la Crónica, ordenó su publicación. Así lo refiere el reverendo editor en su Prohemio. El infante era entonces un niño de tierna edad, a quien seria sin duda sujerida la orden; pero, de todos modos, el hecho no pudo ménos de ser presenciado por numerosos i mui calificados testigos. </p> </div>
+<div data-schema-version="9"><p>Yo me inclino a mirarlo como la primera, en el órden cronolójico, de las poesías castellanas que han llegado a nosotros . Mas, para formar este juicio, presupongo que el manuscrito de Vivar no nos lo retrata con sus facciones primitivas, sino desfigurado por los juglares que lo cantaban , i por los copiantes que hicieron sin duda con ésta lo que con otras obras antiguas, acomodándola a las sucesivas variaciones de la lengua, quitando, poniendo i alterando a su antojo, hasta que vino a parar en el estado lastimoso de mutilacion i degradacion en que ahora la vemos.</p> </div>

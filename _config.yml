@@ -15,10 +15,17 @@ zot-group: 6350646/bibav/collections/XV92RCHB/collection
 zot-item: https://www.zotero.org/groups/6350646/bibav/collections/XV92RCHB/items/
 lang: es
 biba: true # Set to true if you want to enable Biblioteca Abierta features
+tema-mes: traduccion # Set to the name of the theme you want to use. The theme must be in the /assets/themes folder
 # If you want to change the name of the repo, update the BASE_PATH name. Also, if you are going to use the MOREL repo as your main github page (e.g. `myuser.github.io`) comment this line
 BASE_PATH:
 gofundme: https://www.gofundme.com/f/ayuda-a-desbloquear-estos-materiales # Set to your gofundme campaign if you have one
 # ADD AN X OR DELETE IT AND COMMIT IN ORDER TO UPDATE YOUR SITE
+
+
+# Edit for featured content
+
+ventana-titulo: "Última ventana: tradición impresa venezolana en traducción"
+ventana-tema: traduccion
 
 UPDATE: 
 

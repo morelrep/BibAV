@@ -1,3 +1,3 @@
 ---
-title: Bolivar, Simón
+title: Bolívar, Simón
 ---

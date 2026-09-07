@@ -1,5 +1,5 @@
 ---
-title: "Obras completas I: filosofía del entendimiento"
+title: "Obras completas I, Filosofía del entendimiento"
 key: "W9EVZ4T2"
 author: Bello, Andrés
 tags: [curado]
